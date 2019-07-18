@@ -30,6 +30,12 @@ hash_with_symbols = {
 	:elves => 1
 }
 
+puts "Hash before deleting: #{hash_with_symbols}"
+
+hash_with_symbols.delete(:weezards)
+
+puts "Hash after deleting symbol weezards: #{hash_with_symbols}"
+
 #after ruby 1.9
 new_hash_style = { #javascript like
 	one: 1, #still a symbol

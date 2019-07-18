@@ -15,3 +15,5 @@ puts symbol_v
 
 another_symbol = "str".to_sym
 
+#symbols can be used for referencing method names
+puts 3.respond_to?(:next)

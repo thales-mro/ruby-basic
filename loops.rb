@@ -47,3 +47,12 @@ puts "Using .times iterator"
 10.times { print "Oi" }
 puts ""
 
+puts "Using .upto iterator"
+10.upto(13) {
+	|n| puts n
+}
+
+puts "Using .downto iterator"
+10.downto(7) {
+	|n| puts n
+}

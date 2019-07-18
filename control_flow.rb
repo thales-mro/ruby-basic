@@ -18,4 +18,10 @@ end
 
 #cool stuff
 
+puts "It is true!" if true
+
 puts "Good to go!" unless var
+
+#ternary
+
+puts 3 < 4 ? "3 is less than 4!" : "3 is not less than 4."
